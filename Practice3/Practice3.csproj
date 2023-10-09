@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CB21DE4C-3CBB-497E-A098-D54C74EDD4AE}</ProjectGuid>
+    <ProjectGuid>{A971DF37-161B-444D-BA78-78CDBC255DAE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab2Classes</RootNamespace>
-    <AssemblyName>Lab2Classes</AssemblyName>
+    <RootNamespace>Practice3</RootNamespace>
+    <AssemblyName>Practice3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Goods.cs" />
+    <Compile Include="Chapter.cs" />
+    <Compile Include="ChapterComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Technic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
