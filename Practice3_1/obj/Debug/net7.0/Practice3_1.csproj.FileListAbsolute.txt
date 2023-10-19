@@ -1,0 +1,14 @@
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\bin\Debug\net7.0\Practice3_1.exe
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\bin\Debug\net7.0\Practice3_1.deps.json
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\bin\Debug\net7.0\Practice3_1.runtimeconfig.json
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\bin\Debug\net7.0\Practice3_1.dll
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\bin\Debug\net7.0\Practice3_1.pdb
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.AssemblyInfoInputs.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.AssemblyInfo.cs
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.dll
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\refint\Practice3_1.dll
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.pdb
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\Practice3_1.genruntimeconfig.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Practice3_1\obj\Debug\net7.0\ref\Practice3_1.dll
