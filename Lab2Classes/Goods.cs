@@ -6,15 +6,23 @@ using System.Threading.Tasks;
 
 namespace Lab2Classes
 {
-    abstract class Goods
+    public abstract class Goods
     {
         private string _name;
+        private string _article;
         private string _description;
         private decimal _price;
+
         public string Name
         {
             get => _name;
             set => _name = value;
+        }
+
+        public string Article
+        {
+            get => _article;
+            set => _article = value;
         }
 
         public string Description
@@ -29,9 +37,18 @@ namespace Lab2Classes
             set => _price = value;
         }
 
-        public Goods(string name, string description, decimal price)
+        protected Goods()
+        {
+            _name = "Noname";
+            _article = "#0000";
+            _description = "None";
+            _price = 0;
+        }
+
+        protected Goods(string name, string article, string description, decimal price)
         {
             _name = name;
+            _article = article;
             _description = description;
             _price = price;
         }

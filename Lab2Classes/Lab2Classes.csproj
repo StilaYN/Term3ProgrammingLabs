@@ -43,9 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Computer.cs" />
     <Compile Include="Goods.cs" />
+    <Compile Include="Printer.cs" />
+    <Compile Include="PrintersType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scanner .cs" />
+    <Compile Include="ScannerType.cs" />
+    <Compile Include="Tablet.cs" />
     <Compile Include="Technic.cs" />
   </ItemGroup>
   <ItemGroup>

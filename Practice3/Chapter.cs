@@ -2,7 +2,7 @@
 
 namespace Practice3
 {
-    public class Chapter: IComparable
+    public class Chapter: IComparable,ICloneable
     {
         private string _chapterName;
         private int _pageNumber;
@@ -18,6 +18,8 @@ namespace Practice3
             if (chapter != null) return this.ChapterName.CompareTo(chapter.ChapterName);
             else throw new Exception("You cannot compare this object");
         }
+
+        public object Clone() => MemberwiseClone();
 
         public string ChapterName
         {
