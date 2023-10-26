@@ -13,6 +13,10 @@ namespace Lab2Classes
         private string _description;
         private decimal _price;
 
+        public virtual void Action()
+        {
+
+        }
         public string Name
         {
             get => _name;

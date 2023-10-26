@@ -1,0 +1,7 @@
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\bin\Debug\Lab2Classes.exe.config
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\bin\Debug\Lab2Classes.exe
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\bin\Debug\Lab2Classes.pdb
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\obj\Debug\Lab2Classes.csproj.AssemblyReference.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\obj\Debug\Lab2Classes.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\obj\Debug\Lab2Classes.exe
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\Lab2Classes\obj\Debug\Lab2Classes.pdb

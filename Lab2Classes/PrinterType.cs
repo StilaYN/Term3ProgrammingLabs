@@ -2,7 +2,6 @@
 {
     public enum PrinterType
     {
-        ThreeD,
         Laser, 
         Inject,
         DotMatrix,

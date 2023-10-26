@@ -1,10 +1,20 @@
-﻿namespace Lab2Classes
+﻿using System;
+
+namespace Lab2Classes
 {
     public class Scanner : Technic
     {
         private ScannerType _type;
         private int _dpi;
-
+        public override string ToString()
+        {
+            return $"{GetType()}: {Article} {Name} {Producer} {Model} {Color} {EnumToString.ScannerTypeToString(_type)} {_dpi} {Price}";
+        }
+        public override void Action()
+        {
+            Console.WriteLine($"{Producer + Model}: Page is being scanned");
+            Console.WriteLine($"{Producer + Model}: Page was scanned");
+        }
         public Scanner():base()
         {
             _type = ScannerType.None;
@@ -13,7 +23,7 @@
 
         }
 
-        public Scanner(string name, string article, string description, decimal price, string producer, int voltage, string model, string color, ScannerType type, int dpi) : base(name, article, description, price, producer, voltage, model, color)
+        public Scanner(string name, string article, string description, decimal price, string producer, string model, string color, ScannerType type, int dpi) : base(name, article, description, price, producer, model, color)
         {
             _type = type;
             _dpi = dpi;
