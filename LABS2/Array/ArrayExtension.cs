@@ -2,7 +2,7 @@
 {
     public static class ArrayExtension
     {
-        public static Array DeleteNegativeElement(this Array array)
+        public static Array DeleteNegativeElement(this Array array)//удаляет отрицательные числа из массива
         {
             int counter = 0;
             for (int i = 0; i < array.Length; i++) if (array[i] >= 0) counter++;

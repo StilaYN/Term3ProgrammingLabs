@@ -8,13 +8,18 @@ namespace Labs2
 {
     public class Array
     {
-        private int[] _array;
-        private int _size;
+        private int[] _array;//массив целых чисел
+        private int _size;//размер массива
 
         public Array(int size)
         {
             _array = new int[size];
             _size = size;
+        }
+        public Array(params int[] values)
+        {
+            _array = values;
+            _size = values.Length;
         }
 
         public int Length => _size;
@@ -40,7 +45,7 @@ namespace Labs2
         public static bool operator <(Array left,Array right)=> IsLower(left, right);
         public static bool operator >(Array left,Array right)=> !IsLower(left, right) && !IsEqual(left,right);
 
-        public static bool IsAllElementPositive(Array left)
+        public static bool IsAllElementPositive(Array left)//Проверяет содержатся ли в массиве только положительные значения 
         {
 
             for (int i = 0; i < left.Length; i++)
@@ -50,7 +55,7 @@ namespace Labs2
             return true;
         }
 
-        public static bool IsEqual(Array left, Array right)
+        public static bool IsEqual(Array left, Array right) //Проверяет на равенство два объекта
         {
             if(left.Length != right.Length) return false;
             for (int i = 0; i < left.Length; i++)
@@ -60,7 +65,7 @@ namespace Labs2
             return false;
         }
 
-        public static bool IsLower(Array left, Array right)
+        public static bool IsLower(Array left, Array right)//Проверяет все ли элементы первого массива меньше элементов второго массива
         {
             if(IsEqual(left,right)) return false;
             for (int i = 0; i < left.Length || i < right.Length; i++)

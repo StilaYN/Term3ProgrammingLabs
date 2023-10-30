@@ -1,0 +1,7 @@
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\bin\Debug\Array.exe.config
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\bin\Debug\Array.exe
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\bin\Debug\Array.pdb
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\obj\Debug\Array.csproj.AssemblyReference.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\obj\Debug\Array.exe
+C:\Programming\C#\Семестр3\Term3ProgrammingLabs\LABS2\Array\obj\Debug\Array.pdb
