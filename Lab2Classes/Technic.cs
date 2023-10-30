@@ -4,9 +4,9 @@ namespace Lab2Classes
 {
     public abstract class Technic : Goods
     {
-        private string _producer;
-        private string _model;
-        private string _color;
+        private string _producer;//производитель
+        private string _model;//модель
+        private string _color;//цвет
 
         protected Technic():base()
         {

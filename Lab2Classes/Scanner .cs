@@ -4,13 +4,13 @@ namespace Lab2Classes
 {
     public class Scanner : Technic
     {
-        private ScannerType _type;
-        private int _dpi;
-        public override string ToString()
+        private ScannerType _type;//тип сканнера
+        private int _dpi;//разрешение сканнера
+        public override string ToString()//перевод в строку
         {
             return $"{GetType()}: {Article} {Name} {Producer} {Model} {Color} {EnumToString.ScannerTypeToString(_type)} {_dpi} {Price}";
         }
-        public override void Action()
+        public override void Action()//имитирует работу принтера
         {
             Console.WriteLine($"{Producer + Model}: Page is being scanned");
             Console.WriteLine($"{Producer + Model}: Page was scanned");

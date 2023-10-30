@@ -5,10 +5,10 @@ namespace Lab2Classes
 {
     public abstract class Computer : Technic
     {
-        private string _processor;
-        private string _videoChips;
-        private int _ram;
-        private double _memory;
+        private string _processor;//процессор
+        private string _videoChips;//графический чип
+        private int _ram;//оперативная память 
+        private double _memory;//встроенная память
 
         protected Computer():base()
         {

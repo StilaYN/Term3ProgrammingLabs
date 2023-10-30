@@ -5,14 +5,14 @@ namespace Lab2Classes
 {
     public sealed class Tablet : Computer
     {
-        private double _displaySize;
-        private int _updateRate;
-        public override string ToString()
+        private double _displaySize;//размер экрана
+        private int _updateRate;//частора обновления
+        public override string ToString()//переводит в строку
         {
             return $"{GetType()}: {Article} {Name} {Producer} {Model} {Color} {Processor} {VideoChips} {Ram} {Memory} {_displaySize} {_updateRate} {Price}";
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object obj)//проверяет равенство
         {
             if (obj == null || !(obj is Tablet)) return false;
             else
@@ -40,7 +40,7 @@ namespace Lab2Classes
             return $"{GetType()}: {Article} {Name} {Producer} {Model} {Color} {Processor} {VideoChips} {Ram} {Memory} {_displaySize} {_updateRate} {Price}".GetHashCode();
         }
 
-        public override void Action()
+        public override void Action()//имитирует работу планшета
         {
             Console.WriteLine($"{Producer + Model}: Swipe to start work");
             Console.WriteLine($"{Producer + Model}: Tablet ready to work");

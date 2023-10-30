@@ -4,14 +4,14 @@ namespace Lab2Classes
 {
     public class Printer : Technic
     {
-        private PrinterType _type;
-        private int _speedPrintedPapersPerMinute;
-        public override string ToString()
+        private PrinterType _type;//тип принтера
+        private int _speedPrintedPapersPerMinute;//скорость печати
+        public override string ToString()//перевод в строку
         {
             return $"{GetType()}: {Article} {Name} {Producer} {Model} {Color} {EnumToString.PrinterTypeToString(_type)} {_speedPrintedPapersPerMinute} {Price}";
         }
 
-        public override void Action()
+        public override void Action()//имитирует работу принтера 
         {
             Console.WriteLine($"{Producer + Model}: Page is being printed");
             Console.WriteLine($"{Producer + Model}: Page was printed");

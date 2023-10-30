@@ -8,12 +8,12 @@ namespace Lab2Classes
 {
     public abstract class Goods
     {
-        private string _name;
-        private string _article;
-        private string _description;
-        private decimal _price;
+        private string _name;//имя
+        private string _article;//артикул
+        private string _description;//описание
+        private decimal _price;//цена
 
-        public virtual void Action()
+        public virtual void Action()//имитирует действие товара
         {
 
         }
