@@ -62,7 +62,7 @@ namespace Labs2
             {
                 if (left[i] != right[i]) return false;
             }
-            return false;
+            return true;
         }
 
         public static bool IsLower(Array left, Array right)//Проверяет все ли элементы первого массива меньше элементов второго массива
